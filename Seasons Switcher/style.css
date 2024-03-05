@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.images{
+    height:400px;
+    width: 400px;
+}
+
+.btn-div{
+    margin-top: 30px;
+}
+
+.btnclass{
+    height: 30px;
+    width: 95px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+#spring{
+    background-color: green;
+}
+#summer{
+    background-color: rgb(164, 164, 14);
+}
+#autumn{
+    background-color: rgb(167, 13, 13);
+}
+#winter{
+    background-color: #0882ac;
+}
